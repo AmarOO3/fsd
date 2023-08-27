@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('background.jpg'); /* URL of your background image */
+  background-size: cover; /* Scale the image to cover the entire body */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-color: #000; /* Fallback background color */
+  color: #d3b7b7; /* White text color for contrast */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100%;
+}
+.top-line {
+  background-color: #dcd2d2; /* Dark background color */
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 5px;
+}
+.popup {
+  display: none;
+  position: absolute;
+  background-color: #1b07075d;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  padding: 10px;
+}
+
+#menu{
+  padding-top:1000px;
+  margin-bottom: 100px;
+}
+.opt{
+  margin: px;
+}
+#time{
+  position: relative;
+  right: 580px;
+  margin-top: 200px;
+}
